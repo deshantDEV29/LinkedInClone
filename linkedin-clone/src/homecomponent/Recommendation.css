@@ -1,0 +1,37 @@
+.recommendation {
+    display: flex;
+    align-items: center;
+}
+
+.rec__pic{
+    padding-right: 15px;
+}
+
+.rec__pic img {
+    height: 50px;
+    width: 50px; 
+    border-radius: 50%;
+    background-color: grey;
+}
+
+.rec__info{
+    line-height: 5px;
+    color: grey;
+}
+
+.rec__info button{
+    border-radius: 25px;
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+    background-color: white;
+    color: grey;
+    border-color: grey;
+    border: 0.1px solid;
+}
+
+.rec__info button:hover{
+    cursor: pointer;
+    background-color: rgb(241, 239, 239);
+}

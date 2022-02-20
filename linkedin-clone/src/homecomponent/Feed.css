@@ -1,0 +1,71 @@
+.feed{
+    background-color: white;
+    border-radius: 10px;
+    border: 1.5px solid rgb(230, 226, 226);
+    
+}
+
+.feed__header{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.header__left{
+    width: 10%;
+}
+
+.header__center{
+    width: 75%;
+    line-height: 3px;
+}
+
+.header__right{
+    width: 15%;
+}
+
+.feed__desc{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.feed__header img{
+    height: 40px;
+    width: 40px; 
+    border-radius: 50%;
+    background-color: grey;
+    
+}
+
+.feed__media img{
+    width: 100%;
+    height: auto;
+}
+
+.feed__feedback{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.feed__buttons{
+    border-top: 0.1px solid ;
+    border-color: rgb(214, 211, 211); 
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+}
+
+.feed__buttons span{
+    display: flex;
+    align-items: center;
+}
+
+.button__span p{
+    padding-left: 5px;
+}

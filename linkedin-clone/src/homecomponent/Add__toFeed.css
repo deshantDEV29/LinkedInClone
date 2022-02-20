@@ -1,0 +1,17 @@
+.add__tofeed{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1.5px solid rgb(230, 226, 226);
+    
+    
+
+}
+
+.add__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    color: grey;
+}

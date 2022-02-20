@@ -1,0 +1,98 @@
+.profile{
+    background-color: white;
+    border-radius: 10px;
+    border: 1.5px solid rgb(230, 226, 226);
+    overflow: hidden;
+}
+
+.summary{
+    text-align: center;
+    line-height: 20px;
+}
+
+.image__stack{
+    position: relative;
+    width: 100%;
+}
+.summary__background {
+    width: 100%;
+}
+
+.summary__background img{
+    height: 80px;
+    width: 100%;
+    border-top-right-radius: 10px; -moz-border-radius-topright: 10px; -webkit-border-top-right-radius: 10px;
+    border-top-left-radius: 10px; -moz-border-radius-topleft: 10px; -webkit-border-top-left-radius: 10px;
+    
+}
+.summary__pic {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    
+}
+
+.summary__pic img{
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.connections{
+    border-top: 0.1px solid ;
+    border-color: rgb(214, 211, 211); 
+}
+
+.connections span{
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    line-height: 5px;
+    
+}
+
+.views{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.views  span{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.premium{
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+    border-top: 0.1px solid ;
+    border-color: rgb(214, 211, 211);
+}
+
+.my__items{
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+    border-top: 0.1px solid ;
+    border-color: rgb(214, 211, 211);
+}
+
+@media only screen and (max-width: 750px) {
+    .connections{
+        display: none;
+    }
+    .views{
+        display: none;
+    }
+    .premium{
+        display: none;
+    }
+    .my__items{
+        display: none;
+    }
+
+}

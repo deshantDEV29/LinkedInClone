@@ -1,0 +1,160 @@
+.header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+}
+
+.header__logo {
+  color: rgb(57, 107, 214);
+  width: 60px !important ;
+  height: 100% !important;
+  padding-right: 5px;
+  padding-left: 50px;
+  
+}
+
+.header__logo:hover{
+  cursor: pointer;
+}
+
+.header__name {
+  width: 100px;
+  object-fit: contain;
+  margin: 0 20 px;
+  margin: 18px;
+  font-size: x-large;
+  color: grey;
+  border-bottom: none;
+}
+
+.header__search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border-radius: 24px;
+}
+.header__searchInput {
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 70%;
+  background-color: rgb(194, 204, 216);
+  outline: none;
+   
+}
+
+.header__searchIcon {
+  padding: 5px;
+  height: 22px !important;
+  background-color: rgb(194, 204, 216);
+}
+
+@media only screen and (max-width: 670px) {
+  .header__logo {
+  
+    padding-right: 5px;
+    padding-left: 30px;
+  
+}
+  
+  .header__searchInput{
+    display: none;
+  }
+
+
+  .header__searchIcon{
+    padding: 5px;
+    height: 22px !important;
+    background-color: white;
+    border-radius: 10%;
+    color: rgb(146, 145, 145);
+    cursor: pointer;
+  
+  }
+
+  .header__optionLineTwo{
+    display: none;
+  }
+
+  .header__option {
+  display: flex;
+  flex-direction: column;
+  
+  padding-right: 5px;
+  color: rgb(146, 145, 145);
+  align-items: center;
+}
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: rgb(146, 145, 145);
+  align-items: center;
+  cursor: pointer;
+}
+
+.header__option:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.header__optionLineOne {
+  font-size: 12px;
+  
+}
+
+
+.header__optionLineTwo {
+  font-size: 13px;
+}
+
+
+.header__work {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: rgb(146, 145, 145);
+  align-items: center;
+  border-left: 2px solid;
+  padding-left: 5px;
+}
+.header__work:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.header__work__desc{
+  font-size: 13px;
+  cursor: pointer;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .header__work__desc{
+    display: none;
+
+
+  }
+
+  .header__work {
+    display: flex;
+    flex-direction: column;
+    color: rgb(146, 145, 145);
+    align-items: center;
+    border-left: 2px solid;
+    padding-left: 5px;
+}
+}

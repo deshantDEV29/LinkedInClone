@@ -1,0 +1,47 @@
+.discover__more{
+    background-color: white;
+    border-radius: 10px;
+    border: 1.5px solid rgb(230, 226, 226);
+}
+
+
+
+.discover__row1 span{
+    color: rgb(18, 88, 238);
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    cursor: pointer;
+    line-height: 5px;
+}
+
+.add__event{
+    font-size: 20px;
+    color: grey;
+    font-weight: 600;
+    padding-right: 20px;
+}
+
+.discover__row2{
+    align-items: center;
+    justify-content: center;
+    border-top: 0.1px solid ;
+    border-color: rgb(214, 211, 211);
+
+}
+
+.discover__heading{
+    text-align: center;
+    color: grey;
+    font-weight: 450;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 750px) {
+    .discover__more{
+        display: none;
+    }
+
+}
